@@ -1,3 +1,3 @@
 # Split-the-nota
 Individuell uppgift av pseudokod
-![Flödes schema](image.png)
+![Flödes diagram](image.png)

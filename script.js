@@ -4,27 +4,21 @@
 
 START 
 
-// skapa en variabel för antal personer
+skapa en variabel för inmatning av antal personer
 
-let people = getElementById('people').value;
+skapa en variabel för summan av maten
 
-// skapa en variabel för summan av maten
-
-let sum = getElementById('sum').value;
-
-// skapa en variabel för tips
-
-let tip = getElementById('tip').value;
+skapa en variabel för inmatningen av dricks
 
 
 FUNCTION pricePerPerson
-CALCULATE tipsen genom att ta (tip * sum)
-CALCULATE totala summan ( maten + tipsen )
+CALCULATE dricks genom att ta (dricks * summan av mat)
+CALCULATE totala summan ( summan av mat + dricks )
 spara summan i en ny variabel (total)
 
-CALCULATE  total / people;
+CALCULATE  totala summan av mat och dricks / antal personer;
 spara summan i en ny variabel (pricePerPerson)
-
+ 
 PRINT pricePerPerson;
 
 ENDFUNCTION
